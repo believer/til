@@ -5,7 +5,6 @@ date: 2022-01-26
 tags:
   - learning
   - til
-  - posts
 layout: layouts/post.njk
 ---
 

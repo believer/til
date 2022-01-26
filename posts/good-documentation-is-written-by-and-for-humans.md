@@ -6,7 +6,6 @@ tags:
   - development
   - documentation
   - til
-  - posts
 layout: layouts/post.njk
 ---
 

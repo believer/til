@@ -9,12 +9,12 @@ eleventyNavigation:
 
 <p>Here are interesting things I found while browsing the web. It's ideas and thoughts, new findings, and reminders regarding software development. I see it as a second brain for all things related to development and a way for me to practice <a href="/posts/learning-in-public">Learning in public</a>.</p>
 
-<p>This page is heavily inspired by Lee Byron's <a href="https://leebyron.com/til/opaque-types/">TIL</a> and builds on top of my initial attempt with my <a href="https://devlog.willcodefor.beer">Devlog</a> (I'm porting content from that page). Files are found in my Obsidian vault that contain the tag <strong>til</strong>.</p>
+<p>This page is heavily inspired by Lee Byron's <a href="https://leebyron.com/til/opaque-types/">TIL</a> and builds on top of my initial attempt with my <a href="https://devlog.willcodefor.beer">Devlog</a> (I'm porting content from that page).</p>
 
 <h2>entries</h2>
 
-{% set postslist = collections.posts %}
-{% set postslistCounter = collections.posts | length %}
+{% set postslist = collections.til %}
+{% set postslistCounter = collections.til | length %}
 {% include "postslist.njk" %}
 
 <div class="mt-8 font-serif text-xs text-center">

@@ -5,7 +5,6 @@ date: 2021-06-09
 tags:
   - git
   - til
-  - posts
 layout: layouts/post.njk
 ---
 

@@ -6,7 +6,6 @@ tags:
   - learning
   - teaching
   - til
-  - posts
 layout: layouts/post.njk
 ---
 

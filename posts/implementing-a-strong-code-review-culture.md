@@ -5,7 +5,6 @@ date: 2021-06-16
 tags: 
   - code-review
   - til
-  - posts
 layout: layouts/post.njk
 ---
 
