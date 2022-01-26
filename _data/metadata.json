@@ -1,0 +1,21 @@
+{
+  "title": "til",
+  "url": "https://til.nattochdag.dev/",
+  "language": "en",
+  "description": "Things I learn while browsing the web",
+  "feed": {
+    "subtitle": "Things I learn while browsing the web",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://nattochdag.dev/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://nattochdag.dev/feed/feed.json"
+  },
+  "author": {
+    "name": "Rickard Natt och Dag",
+    "email": "rickard@nattochdag.dev",
+    "url": "https://willcodefor.beer"
+  }
+}

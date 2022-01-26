@@ -1,0 +1,20 @@
+---
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Home
+  order: 1
+---
+
+<h1>today i learned</h1>
+<p>Here are interesting things I found while browsing the web. It's ideas and thoughts, new findings, and reminders regarding software development. I see it as a second brain for all things related to development and a way for me to practice <a href="/posts/learning-in-public">Learning in public</a>.</p>
+<p>This page is heavily inspired by Lee Byron's <a href="https://leebyron.com/til/opaque-types/">TIL</a> and builds on top of my initial attempt with my <a href="https://devlog.willcodefor.beer">Devlog</a> (I'm porting content from that page).</p>
+
+<h2>entries</h2>
+
+{% set postslist = collections.posts %}
+{% set postslistCounter = collections.posts | length %}
+{% include "postslist.njk" %}
+
+<div class="text-center text-xs mt-8 font-serif">
+  <a href="/feed/feed.xml">Feed</a>
+</div>

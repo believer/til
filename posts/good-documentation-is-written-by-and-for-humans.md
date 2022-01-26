@@ -1,0 +1,13 @@
+---
+title: good documentation is written by and for humans
+description: Writing good documentation is hard
+date: 2021-07-18
+tags: development, documentation
+layout: layouts/post.njk
+---
+
+Writing good documentation is hard. Remember that you are writing for humans. It might be the first time they are seeing code like the one you are describing.
+
+Everyone has at least one example of good documentation. Write your documentation as that example, the way you would want to find it. [Explain in plain words](/posts/explain-in-plain-words) as everyone might not have the same level of knowledge as you do.
+
+There are tools that help with generating documentation, but it does not help you write good documentation. Generate documentation when possible, but put in extra effort to make it good.
