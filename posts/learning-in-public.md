@@ -2,7 +2,10 @@
 title: learning in public
 description: Share your knowledge and insights
 date: 2021-06-11
-tags: learning
+tags: 
+  - learning
+  - til
+  - posts
 layout: layouts/post.njk
 ---
 

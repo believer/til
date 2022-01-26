@@ -2,7 +2,10 @@
 title: use valueAs* on inputs
 excerpt: If you want to get the value of an input as a number or a date you can easily parse the value of a type="text" input
 date: 2021-11-10
-tags: learning
+tags:
+  - learning
+  - til
+  - posts
 layout: layouts/post.njk
 ---
 

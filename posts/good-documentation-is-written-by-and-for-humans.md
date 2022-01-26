@@ -2,7 +2,11 @@
 title: good documentation is written by and for humans
 description: Writing good documentation is hard
 date: 2021-07-18
-tags: development, documentation
+tags:
+  - development
+  - documentation
+  - til
+  - posts
 layout: layouts/post.njk
 ---
 

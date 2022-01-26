@@ -2,7 +2,10 @@
 title: implementing a strong code-review culture
 description: Code reviews are more about transferring knowledge inside a team and coming up with alternate solutions than finding bugs in the code
 date: 2021-06-16
-tags: code review
+tags: 
+  - code-review
+  - til
+  - posts
 layout: layouts/post.njk
 ---
 

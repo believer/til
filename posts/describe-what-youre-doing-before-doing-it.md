@@ -2,7 +2,11 @@
 title: describe what you're doing before doing it
 excerpt: Describe what you're going to do and why before actually doing it when you're teaching something to someone.
 date: 2021-08-30
-tags: learning, teaching
+tags:
+  - learning
+  - teaching
+  - til
+  - posts
 layout: layouts/post.njk
 ---
 

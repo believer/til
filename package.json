@@ -5,7 +5,7 @@
   "scripts": {
     "build": "NODE_ENV=production eleventy && npm run build:css",
     "watch": "eleventy --watch",
-    "serve": "eleventy --serve",
+    "serve": "node find_til.js && eleventy --serve",
     "start": "eleventy --serve",
     "debug": "DEBUG=* eleventy",
     "build:css": "tailwindcss -i ./css/index.css -o ./_site/css/index.css --minify",
@@ -41,6 +41,7 @@
   "dependencies": {
     "@tailwindcss/typography": "0.5.0",
     "eleventy-plugin-seo": "0.5.2",
+    "front-matter": "^4.0.2",
     "markdown-it-link-attributes": "4.0.0"
   }
 }

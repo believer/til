@@ -2,7 +2,10 @@
 title: explain in plain words
 description: An efficient way of testing your knowledge is to try and explain the subject in simple words
 date: 2021-06-11
-tags: learning
+tags:
+  - learning
+  - til
+  - posts
 layout: layouts/post.njk
 ---
 
