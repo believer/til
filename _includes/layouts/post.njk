@@ -3,13 +3,15 @@ layout: layouts/base.njk
 templateClass: tmpl-post
 ---
 
-<article class="max-w-xl sm:mx-auto my-10 mx-5">
-  <h1 class="flex mb-5 text-2xl">
-    <a href="/">til</a>
-    <span>{{title}}</span>
-  </h1>
+<div class="max-w-xl sm:mx-auto my-10 mx-5">
+  <article class="prose">
+    <h1 class="flex mb-5 text-2xl">
+      <a href="/">til</a>
+      <span>{{title}}</span>
+    </h1>
 
-  {{ content | safe }}
+    {{ content | safe }}
+  </article>
 
   {%- if collections.posts %}
     {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
@@ -24,4 +26,4 @@ templateClass: tmpl-post
   {%- endif %}
 
   <time class="block mt-4 text-xs text-gray-600" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
-</article>
+</div>

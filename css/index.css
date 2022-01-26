@@ -26,7 +26,7 @@
   }
 
   h1:first-child span::before {
-    @apply mx-1 text-gray-400;
+    @apply mx-1 font-normal text-gray-400;
     content: "/";
   }
 
@@ -40,45 +40,5 @@
 
   hr {
     @apply my-4;
-  }
-
-  hr ~ ul {
-    @apply text-sm;
-  }
-
-  :not(pre) > code {
-    @apply rounded-sm bg-gray-100 p-1 font-mono text-sm;
-  }
-
-  pre,
-  code {
-    font-family: "IBM Plex Mono", monospace;
-    font-weight: 400;
-  }
-
-  pre[data-code-block] {
-    background: #00000008;
-    font-size: max(12px, 80%);
-    line-height: 1.4;
-    width: fit-content;
-    min-width: 60%;
-    max-width: min(100ch, 100vw - 5rem);
-    padding: 0.5rem;
-    margin: -0.25rem 0;
-    -webkit-overflow-scrolling: touch;
-    overflow: scroll;
-  }
-
-  pre[data-code-block][data-lang*="sh"] span[data-line]:before {
-    content: "❯ ";
-    color: #40102030;
-    user-select: none;
-  }
-
-  :not(pre) > code {
-    @apply bg-brandBlue-50 text-brandBlue-700 bg-opacity-25;
-    padding: 0 0.1em;
-    margin: 0 -0.1em;
-    border-radius: 0.4em;
   }
 }

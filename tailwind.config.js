@@ -16,7 +16,48 @@ module.exports = {
           900: "#001B33",
         },
       },
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            color: theme("colors.gray.900"),
+            a: {
+              color: theme("colors.brandBlue.600"),
+              "&:hover": {
+                color: theme("colors.brandBlue.600"),
+                textDecoration: "underline",
+              },
+            },
+            h1: {
+              color: theme("colors.gray.600"),
+              fontWeight: "700",
+            },
+            "h2 a": {
+              color: theme("colors.gray.900"),
+              textDecoration: "none",
+            },
+            ".tag a": {
+              textDecoration: "none",
+            },
+            code: {
+              backgroundColor: "rgb(229 243 255 / 30%)",
+              color: theme("colors.brandBlue.700"),
+            },
+            hr: {
+              marginBottom: "20px",
+              marginTop: "20px",
+            },
+            "hr ~ ul": {
+              listStyle: "none",
+              fontSize: "12px",
+              paddingLeft: 0,
+            },
+            "hr ~ ul li": {
+              paddingLeft: 0,
+            },
+          },
+        },
+      }),
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };
