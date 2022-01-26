@@ -16,4 +16,4 @@ This is the basis of Richard Feynman's learning technique.
 
 ---
 
-- Shu Omi (2020-10-23). "Simple Feynman Technique for Studying". [Link](https://www.youtube.com/watch?v=GL6Z1DTJ-LQ)
+- Shu Omi. (2020-10-23). "Simple Feynman Technique for Studying". [Link](https://www.youtube.com/watch?v=GL6Z1DTJ-LQ)
