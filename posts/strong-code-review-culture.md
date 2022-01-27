@@ -1,13 +1,13 @@
 ---
-title: implementing a strong code-review culture
+title: strong code-review culture
 description: Code reviews are more about transferring knowledge inside a team and coming up with alternate solutions than finding bugs in the code
 date: 2021-06-16
 tags: 
   - code-review
   - til
 layout: layouts/post.njk
-modified: '2021-06-16'
-modifiedDateTime: '2021-06-16 13:00'
+modified: '2022-01-27'
+modifiedDateTime: '2022-01-27 19:15'
 created: '2021-06-16'
 createdDateTime: '2021-06-16 13:00'
 ---

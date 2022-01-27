@@ -1,5 +1,5 @@
 ---
-title: good documentation is written by and for humans
+title: writing good documentation
 description: Writing good documentation is hard
 date: 2021-07-18
 tags:
@@ -7,8 +7,8 @@ tags:
   - documentation
   - til
 layout: layouts/post.njk
-modified: '2021-07-18'
-modifiedDateTime: '2021-07-18 14:00'
+modified: '2022-01-27'
+modifiedDateTime: '2022-01-27 19:14'
 created: '2021-07-18'
 createdDateTime: '2021-07-18 14:00'
 ---

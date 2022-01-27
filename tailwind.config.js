@@ -48,7 +48,7 @@ module.exports = {
             },
             "hr ~ ul": {
               listStyle: "none",
-              fontSize: "12px",
+              fontSize: "14px",
               paddingLeft: 0,
             },
             "hr ~ ul li": {

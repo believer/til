@@ -9,12 +9,12 @@
   }
 
   p {
-    @apply my-4 font-serif text-sm sm:text-base;
+    @apply my-4 font-serif;
   }
 
   ul,
   ol {
-    @apply space-y-1 text-sm sm:text-base;
+    @apply space-y-1;
   }
 
   li {
@@ -23,11 +23,6 @@
 
   h1 {
     @apply mb-5 flex text-2xl font-semibold;
-  }
-
-  h1:first-child span::before {
-    @apply mx-1 font-normal text-gray-400;
-    content: "/";
   }
 
   h2 {

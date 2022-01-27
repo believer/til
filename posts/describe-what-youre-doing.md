@@ -1,5 +1,5 @@
 ---
-title: describe what you're doing before doing it
+title: describe what you're doing
 excerpt: Describe what you're going to do and why before actually doing it when you're teaching something to someone.
 date: 2021-08-30
 tags:
@@ -7,8 +7,8 @@ tags:
   - teaching
   - til
 layout: layouts/post.njk
-modified: '2021-08-30'
-modifiedDateTime: '2021-08-30 14:00'
+modified: '2022-01-27'
+modifiedDateTime: '2022-01-27 19:13'
 created: '2021-08-30'
 createdDateTime: '2021-08-30 14:00'
 ---

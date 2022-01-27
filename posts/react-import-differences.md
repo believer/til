@@ -1,5 +1,5 @@
 ---
-title: recommended way of importing React
+title: react import differences
 excerpt: There are a bunch of ways to import React. Below are all the valid formats of importing `useState` from React. 
 date: 2022-01-27
 tags:
@@ -8,7 +8,7 @@ tags:
   - til
 layout: layouts/post.njk
 modified: '2022-01-27'
-modifiedDateTime: '2022-01-27 15:18'
+modifiedDateTime: '2022-01-27 19:24'
 created: '2022-01-27'
 createdDateTime: '2022-01-27 15:01'
 ---
