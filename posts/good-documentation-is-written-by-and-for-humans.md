@@ -7,6 +7,8 @@ tags:
   - documentation
   - til
 layout: layouts/post.njk
+modified: '2021-07-18'
+created: '2021-07-18'
 ---
 
 Writing good documentation is hard. Remember that you are writing for humans. It might be the first time they are seeing code like the one you are describing.

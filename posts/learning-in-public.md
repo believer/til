@@ -6,6 +6,8 @@ tags:
   - learning
   - til
 layout: layouts/post.njk
+modified: '2021-06-11'
+created: '2021-06-11'
 ---
 
 Share your knowledge and insights. To do this in the most effective way you'll need to [Explain in plain words](/posts/explain-in-plain-words). This "forces" you to refine your thinking until you can explain the topic in the most accessible way.

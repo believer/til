@@ -6,6 +6,8 @@ tags:
   - learning
   - til
 layout: layouts/post.njk
+modified: '2021-06-11'
+created: '2021-06-11'
 ---
 
 I can honestly say that building a bunch of side projects has made me a better developer. I get to actively work on different problems, try new things and improve my knowledge.

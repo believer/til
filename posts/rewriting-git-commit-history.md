@@ -6,6 +6,8 @@ tags:
   - git
   - til
 layout: layouts/post.njk
+modified: '2021-06-09'
+created: '2021-06-09'
 ---
 
 If you want to fix a commit inside a PR you can use Git rebasing and the easiest way to do it is using an interactive rebase. Let's say you have three commits:

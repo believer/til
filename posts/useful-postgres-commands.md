@@ -6,6 +6,8 @@ tags:
   - postgres
   - til
 layout: layouts/post.njk
+modified: '2022-01-27'
+created: '2022-01-27'
 ---
 
 Useful Postgres commands and queries that I tend forget.

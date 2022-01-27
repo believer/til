@@ -7,6 +7,8 @@ tags:
   - development
   - til
 layout: layouts/post.njk
+modified: '2022-01-27'
+created: '2022-01-27'
 ---
 
 There are a bunch of ways to import React. Below are all the valid formats of importing `useState` from React. They have all been used at different times throughout the history of React. Read Kent C. Dodds's blog post below if you want to read a great summary of the differences.

@@ -7,6 +7,8 @@ tags:
   - teaching
   - til
 layout: layouts/post.njk
+modified: '2021-08-30'
+created: '2021-08-30'
 ---
 
 Describe what you're going to do and why before actually doing it when you're teaching something to someone.

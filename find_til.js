@@ -1,7 +1,9 @@
 const fm = require('front-matter')
 const path = require('path')
 const { resolve } = require('path')
-const { writeFile, readdir, readFile } = require('fs').promises
+const { writeFile, readdir, readFile, stat } = require('fs').promises
+
+const dateFormatter = new Intl.DateTimeFormat('sv-SE')
 
 async function* getFiles(dir) {
   const dirents = await readdir(dir, { withFileTypes: true })
@@ -29,6 +31,14 @@ const obsidianLinkToMarkdownLink =
       .replace(/[*]/g, '')})`
   }
 
+const addFileDates =
+  ({ mtime, birthtime }) =>
+  (match, offset, string) => {
+    return `${match}
+modified: '${dateFormatter.format(mtime)}'
+created: '${dateFormatter.format(birthtime)}'`
+  }
+
 ;(async () => {
   let tils = []
 
@@ -53,10 +63,13 @@ const obsidianLinkToMarkdownLink =
       .replace(/[*']/g, '')
 
     const data = await readFile(til, 'utf8')
-    const content = data.replace(
-      /\[\[([a-zåäö0-9\s-.,]+)\]\]/gi,
-      obsidianLinkToMarkdownLink(allFilenames)
-    )
+    const metadata = await stat(til)
+    const content = data
+      .replace(
+        /\[\[([a-zåäö0-9\s-.,]+)\]\]/gi,
+        obsidianLinkToMarkdownLink(allFilenames)
+      )
+      .replace(/^layout\: layouts\/post\.njk$/gim, addFileDates(metadata))
 
     await writeFile(`./posts/${filename}`, content)
   }

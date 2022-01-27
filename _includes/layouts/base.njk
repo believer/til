@@ -18,12 +18,8 @@
     ></script>
   </head>
   <body>
-    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+    <main>
       {{ content | safe }}
     </main>
-
-    <footer></footer>
-
-    <!-- Current page: {{ page.url | url }} -->
   </body>
 </html>

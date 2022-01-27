@@ -6,6 +6,8 @@ tags:
   - code-review
   - til
 layout: layouts/post.njk
+modified: '2021-06-16'
+created: '2021-06-16'
 ---
 
 Code reviews are more about transferring knowledge inside a team and coming up with alternate solutions than finding bugs in the code. A strong code review culture will give us better code and better developers.

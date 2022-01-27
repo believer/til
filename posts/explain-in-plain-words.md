@@ -7,6 +7,8 @@ tags:
   - learning
   - til
 layout: layouts/post.njk
+modified: '2021-06-11'
+created: '2021-06-11'
 ---
 
 An efficient way of testing your knowledge is to try and explain the subject in simple words. If you're unable to do that you haven't understood the subject well enough. Identify where your knowledge is lacking and study those areas more until you can explain them in simple words.
