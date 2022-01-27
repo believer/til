@@ -45,13 +45,14 @@ import * as React from 'react'
 import Auth from './auth'
 
 React.useState()
-Auth.useState()```
+Auth.useState()
+```
 
 To make it easier to type I would recommend adding a snippet for it in your IDE.
 
 ---
 
-Kent C. Dodds. _Importing React Through the Ages_. [Link](https://epicreact.dev/importing-react-through-the-ages/)
-React. [[2020-02-22]]. _The React team's recommendation_. [Link](https://github.com/facebook/react/pull/18102)
-Michael Jackson. [[2021-11-02]]. [Tweet](https://twitter.com/mjackson/status/1455320815361167362)
-Dan Abramov. [[2020-09-23]]. [Tweet](https://twitter.com/dan_abramov/status/1308739731551858689)
+- Kent C. Dodds. _Importing React Through the Ages_. [Link](https://epicreact.dev/importing-react-through-the-ages/)
+- React. 2020-02-22. _The React team's recommendation_. [Link](https://github.com/facebook/react/pull/18102)
+- Michael Jackson. 2021-11-02. [Tweet](https://twitter.com/mjackson/status/1455320815361167362)
+- Dan Abramov. 2020-09-23. [Tweet](https://twitter.com/dan_abramov/status/1308739731551858689)

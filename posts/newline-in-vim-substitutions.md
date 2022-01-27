@@ -14,4 +14,4 @@ If you are _searching_ for a newline, you'd still use `\n`.
 
 ---
 
-- StackOverFlow (2008-09-16) [Link](https://stackoverflow.com/questions/71323/how-to-replace-a-character-by-a-newline-in-vim)
+- StackOverFlow. (2008-09-16) [Link](https://stackoverflow.com/questions/71323/how-to-replace-a-character-by-a-newline-in-vim)

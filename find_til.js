@@ -54,7 +54,7 @@ const obsidianLinkToMarkdownLink =
 
     const data = await readFile(til, 'utf8')
     const content = data.replace(
-      /\[\[([\w\s.,]+)\]\]/gi,
+      /\[\[([a-zåäö0-9\s-.,]+)\]\]/gi,
       obsidianLinkToMarkdownLink(allFilenames)
     )
 
