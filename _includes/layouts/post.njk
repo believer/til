@@ -13,9 +13,9 @@ templateClass: tmpl-post
     {{ content | safe }}
   </article>
 
-  {%- if collections.posts %}
-    {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
-    {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+  {%- if collections.til %}
+    {%- set nextPost = collections.til | getNextCollectionItem(page) %}
+    {%- set previousPost = collections.til | getPreviousCollectionItem(page) %}
     {%- if nextPost or previousPost %}
       <hr>
       <ul class="flex justify-between text-sm">
