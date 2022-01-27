@@ -15,13 +15,19 @@ async function* getFiles(dir) {
   }
 }
 
-function obsidianLinkToMarkdownLink(match, offset, string) {
-  const title = match.replace(/[\[\]]/g, '')
-  return `[${title}](/posts/${title
-    .toLowerCase()
-    .replace(/\s/g, '-')
-    .replace(/[*]/g, '')})`
-}
+const obsidianLinkToMarkdownLink =
+  (allFilenames) => (match, offset, string) => {
+    const title = match.replace(/[\[\]]/g, '')
+
+    if (!allFilenames.includes(title)) {
+      return title
+    }
+
+    return `[${title}](/posts/${title
+      .toLowerCase()
+      .replace(/\s/g, '-')
+      .replace(/[*]/g, '')})`
+  }
 
 ;(async () => {
   let tils = []
@@ -37,6 +43,8 @@ function obsidianLinkToMarkdownLink(match, offset, string) {
     }
   }
 
+  const allFilenames = tils.map((til) => path.basename(til).replace('.md', ''))
+
   for (const til of tils) {
     const filename = path
       .basename(til)
@@ -45,7 +53,10 @@ function obsidianLinkToMarkdownLink(match, offset, string) {
       .replace(/[*']/g, '')
 
     const data = await readFile(til, 'utf8')
-    const content = data.replace(/\[\[(.+)\]\]/gi, obsidianLinkToMarkdownLink)
+    const content = data.replace(
+      /\[\[([\w\s.,]+)\]\]/gi,
+      obsidianLinkToMarkdownLink(allFilenames)
+    )
 
     await writeFile(`./posts/${filename}`, content)
   }
