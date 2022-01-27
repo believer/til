@@ -7,7 +7,9 @@ tags:
   - til
 layout: layouts/post.njk
 modified: '2022-01-27'
+modifiedDateTime: '2022-01-27 16:52'
 created: '2022-01-26'
+createdDateTime: '2022-01-26 17:45'
 ---
 
 When doing substitutions in vim use `\r` instead of `\n`. `\n` inserts a null character in the text while `\r` will match a carriage return.

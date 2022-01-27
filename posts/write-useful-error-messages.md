@@ -7,7 +7,9 @@ tags:
   - til
 layout: layouts/post.njk
 modified: '2021-06-09'
+modifiedDateTime: '2021-06-09 10:00'
 created: '2021-06-09'
+createdDateTime: '2021-06-09 10:00'
 ---
 
 Inform your users what is happening by writing good and useful error messages. This will hopefully lead to few support errands in the long run as the user can understand what went wrong.

@@ -8,7 +8,9 @@ tags:
   - til
 layout: layouts/post.njk
 modified: '2021-07-18'
+modifiedDateTime: '2021-07-18 14:00'
 created: '2021-07-18'
+createdDateTime: '2021-07-18 14:00'
 ---
 
 Writing good documentation is hard. Remember that you are writing for humans. It might be the first time they are seeing code like the one you are describing.

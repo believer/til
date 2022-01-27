@@ -7,7 +7,9 @@ tags:
   - til
 layout: layouts/post.njk
 modified: '2022-01-27'
+modifiedDateTime: '2022-01-27 14:43'
 created: '2022-01-27'
+createdDateTime: '2022-01-27 12:53'
 ---
 
 Useful Postgres commands and queries that I tend forget.

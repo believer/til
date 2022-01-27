@@ -3,7 +3,11 @@ const path = require('path')
 const { resolve } = require('path')
 const { writeFile, readdir, readFile, stat } = require('fs').promises
 
-const dateFormatter = new Intl.DateTimeFormat('sv-SE')
+const formatDate = new Intl.DateTimeFormat('sv-SE')
+const formatDateTime = new Intl.DateTimeFormat('sv-SE', {
+  dateStyle: 'short',
+  timeStyle: 'short',
+})
 
 async function* getFiles(dir) {
   const dirents = await readdir(dir, { withFileTypes: true })
@@ -35,8 +39,10 @@ const addFileDates =
   ({ mtime, birthtime }) =>
   (match, offset, string) => {
     return `${match}
-modified: '${dateFormatter.format(mtime)}'
-created: '${dateFormatter.format(birthtime)}'`
+modified: '${formatDate.format(mtime)}'
+modifiedDateTime: '${formatDateTime.format(mtime)}'
+created: '${formatDate.format(birthtime)}'
+createdDateTime: '${formatDateTime.format(birthtime)}'`
   }
 
 ;(async () => {

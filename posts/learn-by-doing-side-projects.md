@@ -7,7 +7,9 @@ tags:
   - til
 layout: layouts/post.njk
 modified: '2021-06-11'
+modifiedDateTime: '2021-06-11 09:00'
 created: '2021-06-11'
+createdDateTime: '2021-06-11 09:00'
 ---
 
 I can honestly say that building a bunch of side projects has made me a better developer. I get to actively work on different problems, try new things and improve my knowledge.

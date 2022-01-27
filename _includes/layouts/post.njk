@@ -27,10 +27,10 @@ templateClass: tmpl-post
 
   <footer class="mt-8 text-xs text-center text-gray-600">
     This til was created 
-    <time class="font-semibold" datetime="{{created}}">{{ created }}</time>
+    <time class="font-semibold" datetime="{{createdDateTime}}">{{ createdDateTime }}</time>
     {%- if created !== modified %}
     and last modified 
-    <time class="font-semibold" datetime="{{modified}}">{{ modified }}</time>
+    <time class="font-semibold" datetime="{{modifiedDateTime}}">{{ modifiedDateTime }}</time>
     {% endif %}
   </footer>
 </section>

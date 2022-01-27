@@ -7,7 +7,9 @@ tags:
   - til
 layout: layouts/post.njk
 modified: '2021-11-10'
+modifiedDateTime: '2021-11-10 13:37'
 created: '2021-11-10'
+createdDateTime: '2021-11-10 13:37'
 ---
 
 If you want to get the value of an input as a number or a date you can easily parse the value of a `type="text"` input. However, there's an easier solution by using `valueAsNumber` or `valueAsDate`. The attributes are only available for certain input types. The attributes return `NaN` if not available or if the value is invalid.
