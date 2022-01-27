@@ -18,13 +18,14 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginSyntaxHighlight)
   eleventyConfig.addPlugin(pluginNavigation)
   eleventyConfig.addPlugin(pluginSEO, {
-    title: 'til',
+    title: 'til / Rickard Natt och Dag',
     description: 'Things I learn while browsing the web',
     url: 'https://til.nattochdag.dev',
     author: 'Rickard Natt och Dag',
     twitter: 'rnattochdag',
     image: '/img/ogimage.png',
     options: {
+      titleDivider: '/',
       imageWithBaseUrl: true,
     },
   })
