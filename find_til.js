@@ -71,6 +71,8 @@ createdDateTime: '${formatDateTime.format(birthtime)}'`
     const data = await readFile(til, 'utf8')
     const metadata = await stat(til)
     const content = data
+      .replace(/{{/g, '{% raw %}{{')
+      .replace(/}}/g, '}}{% endraw %}')
       .replace(
         /\[\[([a-zåäö0-9\s-.,]+)\]\]/gi,
         obsidianLinkToMarkdownLink(allFilenames)
