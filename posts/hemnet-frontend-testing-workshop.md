@@ -1,7 +1,7 @@
 ---
 title: hemnet frontend testing workshop
 description: This is a workshop in Frontend Testing that I held at Hemnet. The idea was to have it sort of like a Mob programming session so that each participant got to code and get a feel for the code instead of just sitting and listening to me talk about it.
-date: 2021-06-16
+date: '2021-06-16T15:55'
 tags:
   - development
   - react
@@ -9,7 +9,7 @@ tags:
   - til
 layout: layouts/post.njk
 modified: '2022-01-28'
-modifiedDateTime: '2022-01-28 12:59'
+modifiedDateTime: '2022-01-28 13:31'
 created: '2021-06-16'
 createdDateTime: '2021-06-16 15:55'
 ---

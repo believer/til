@@ -1,14 +1,14 @@
 ---
 title: react import differences
 excerpt: There are a bunch of ways to import React. Below are all the valid formats of importing `useState` from React. 
-date: 2022-01-27
+date: '2022-01-27T15:01'
 tags:
   - react
   - development
   - til
 layout: layouts/post.njk
-modified: '2022-01-27'
-modifiedDateTime: '2022-01-27 19:24'
+modified: '2022-01-28'
+modifiedDateTime: '2022-01-28 13:29'
 created: '2022-01-27'
 createdDateTime: '2022-01-27 15:01'
 ---

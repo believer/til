@@ -6,8 +6,8 @@ tags:
   - learning
   - til
 layout: layouts/post.njk
-modified: '2022-01-27'
-modifiedDateTime: '2022-01-27 16:52'
+modified: '2022-01-28'
+modifiedDateTime: '2022-01-28 13:28'
 created: '2022-01-26'
 createdDateTime: '2022-01-26 17:45'
 ---

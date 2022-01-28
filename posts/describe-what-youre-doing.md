@@ -7,8 +7,8 @@ tags:
   - teaching
   - til
 layout: layouts/post.njk
-modified: '2022-01-27'
-modifiedDateTime: '2022-01-27 19:13'
+modified: '2022-01-28'
+modifiedDateTime: '2022-01-28 13:28'
 created: '2021-08-30'
 createdDateTime: '2021-08-30 14:00'
 ---

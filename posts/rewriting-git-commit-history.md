@@ -6,8 +6,8 @@ tags:
   - git
   - til
 layout: layouts/post.njk
-modified: '2021-06-09'
-modifiedDateTime: '2021-06-09 10:00'
+modified: '2022-01-28'
+modifiedDateTime: '2022-01-28 13:28'
 created: '2021-06-09'
 createdDateTime: '2021-06-09 10:00'
 ---
