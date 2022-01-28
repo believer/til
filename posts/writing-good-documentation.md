@@ -7,8 +7,8 @@ tags:
   - documentation
   - til
 layout: layouts/post.njk
-modified: '2022-01-27'
-modifiedDateTime: '2022-01-27 19:14'
+modified: '2022-01-28'
+modifiedDateTime: '2022-01-28 11:55'
 created: '2021-07-18'
 createdDateTime: '2021-07-18 14:00'
 ---
