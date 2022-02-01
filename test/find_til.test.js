@@ -25,6 +25,20 @@ describe('#obsidianLinkToMarkdownLink', () => {
       obsidianLinkToMarkdownLink(["Test's are nice*"])("[[Test's are nice*]]")
     ).toEqual("[Test's are nice*](/posts/tests-are-nice)")
   })
+
+  test('handles aliased links without page', () => {
+    expect(
+      obsidianLinkToMarkdownLink([])("[[Parkinsons lag|Parkinson's law]]")
+    ).toEqual("Parkinson's law")
+  })
+
+  test('handles aliased links with page', () => {
+    expect(
+      obsidianLinkToMarkdownLink(["Parkinson's law"])(
+        "[[Parkinsons lag|Parkinson's law]]"
+      )
+    ).toEqual("[Parkinson's law](/posts/parkinsons-law)")
+  })
 })
 
 describe('#addFileDates', () => {

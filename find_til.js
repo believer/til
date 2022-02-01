@@ -23,7 +23,11 @@ async function* getFiles(dir) {
 
 const obsidianLinkToMarkdownLink =
   (allFilenames) => (match, offset, string) => {
-    const title = match.replace(/[\[\]]/g, '')
+    let title = match.replace(/[\[\]]/g, '')
+
+    if (title.includes('|')) {
+      title = title.split('|')[1]
+    }
 
     if (!allFilenames.includes(title)) {
       return title
@@ -78,7 +82,7 @@ createdDateTime: '${formatDateTime.format(birthtime)}'`
       .replace(/{{/g, '{% raw %}{{')
       .replace(/}}/g, '}}{% endraw %}')
       .replace(
-        /\[\[([a-zåäö0-9\s-.,]+)\]\]/gi,
+        /\[\[([a-zåäö0-9\s-'.,|]+)\]\]/gi,
         obsidianLinkToMarkdownLink(allFilenames)
       )
       .replace(/^layout\: layouts\/post\.njk$/gim, addFileDates(metadata))

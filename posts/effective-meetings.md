@@ -31,7 +31,7 @@ If your calendar system supports it, Outlook for instance, invite people as _req
 
 Fifteen (15) minutes might be enough time. Research shows that people start to check out mentally after 10-18 minutes, which means that half the meeting could be unproductive if the meeting was 30 minutes. This is why TED talks are 18 minutes or shorter. Consider changing the default meeting length in your calendar.
 
-> Work expands to the time you schedule for it – [[Parkinsons lag|Parkinson's law]]
+> Work expands to the time you schedule for it – Parkinson's law
 
 ## Agenda
 
