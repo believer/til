@@ -32,7 +32,7 @@ const obsidianLinkToMarkdownLink =
     return `[${title}](/posts/${title
       .toLowerCase()
       .replace(/\s/g, '-')
-      .replace(/[*]/g, '')})`
+      .replace(/[*']/g, '')})`
   }
 
 const addFileDates =
@@ -54,7 +54,11 @@ createdDateTime: '${formatDateTime.format(birthtime)}'`
     const data = await readFile(f, 'utf8')
     const { attributes } = fm(data)
 
-    if (attributes.tags && attributes.tags.includes('til')) {
+    if (
+      attributes.tags &&
+      attributes.tags.includes('til') &&
+      attributes.title
+    ) {
       tils.push(f)
     }
   }
@@ -82,3 +86,5 @@ createdDateTime: '${formatDateTime.format(birthtime)}'`
     await writeFile(`./posts/${filename}`, content)
   }
 })()
+
+module.exports = { obsidianLinkToMarkdownLink, addFileDates }
