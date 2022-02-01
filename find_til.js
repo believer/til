@@ -53,7 +53,7 @@ createdDateTime: '${formatDateTime.format(birthtime)}'`
   let tils = []
 
   for await (const f of getFiles(
-    '/Users/rdag/Library/Mobile Documents/iCloud~md~obsidian/Documents/notes'
+    '/Users/rickard/Library/Mobile Documents/iCloud~md~obsidian/Documents/notes'
   )) {
     const data = await readFile(f, 'utf8')
     const { attributes } = fm(data)

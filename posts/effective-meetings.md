@@ -8,7 +8,7 @@ tags:
   - til
 layout: layouts/post.njk
 modified: '2022-02-01'
-modifiedDateTime: '2022-02-01 14:05'
+modifiedDateTime: '2022-02-01 20:04'
 created: '2022-02-01'
 createdDateTime: '2022-02-01 12:10'
 ---
@@ -61,9 +61,9 @@ Eliminate distractions. Sit somewhere quiet, preferably where you can close the 
 
 Before starting your video, look around you and make sure that your surroundings are appropriate for work.
 
-Zoom fatigue is real because we have a harder time picking up on non-verbal communication and this consumes a lot of energy. We can also be stressed about our work environment.
+Zoom fatigue is real because we have a harder time picking up on non-verbal communication and this consumes a lot of energy. We can also be stressed about our work environment. That the kids might run in or that the video background disappear and display my house in total disarray.
 
-Looking at your own face can be stressful. Viewing our own negative expressions can lead to more intense emotions than when viewing similar expressions in others.
+Research<sup><a href="#ref-1">1</a></sup> shows that looking at your own face can be stressful. Viewing our own negative expressions can lead to more intense emotions than when viewing similar expressions in others. Turning off self view inside video meetings can help you keep your energy longer.
 
 Turn your camera on during team meetings as it can help you feel more connected with your teammates.
 
@@ -82,4 +82,4 @@ Recording meetings can be effective for people who aren't able to attend. Cons a
 - Paul Axtell. (2015-11-26). _Two Things to Do After Every Meeting_. [Link](https://hbr.org/2015/11/two-things-to-do-after-every-meeting)
 - Carmine Gallo. (2014-03-13). _The Science Behind TED's 18-Minute Rule_. [Link](https://www.linkedin.com/pulse/20140313205730-5711504-the-science-behind-ted-s-18-minute-rule)
 - Libby Sander, Oliver Bauman. (2020-05-19). _Zoom fatigue is real — here’s why video calls are so draining_. [Link](https://ideas.ted.com/zoom-fatigue-is-real-heres-why-video-calls-are-so-draining/)
-- Frontiers in Psychology. (2020-03-31). _Explicit and Implicit Responses of Seeing Own vs. Others’ Emotions: An Electromyographic Study on the Neurophysiological and Cognitive Basis of the Self-Mirroring Technique_. [Link](https://www.frontiersin.org/articles/10.3389/fpsyg.2020.00433/full)
+- Frontiers in Psychology. (2020-03-31). _Explicit and Implicit Responses of Seeing Own vs. Others’ Emotions: An Electromyographic Study on the Neurophysiological and Cognitive Basis of the Self-Mirroring Technique_. [Link](https://www.frontiersin.org/articles/10.3389/fpsyg.2020.00433/full) .<sup><a id="ref-1">1</a></sup>
