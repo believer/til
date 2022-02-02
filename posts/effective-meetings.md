@@ -1,14 +1,14 @@
 ---
 title: effective meetings
-description: Scheduling a meeting has become the default for most business issues. Not sure what to do in a project? Meeting. Have some ideas? Meeting.
+excerpt: Scheduling a meeting has become the default for most business issues. Not sure what to do in a project? Meeting. Have some ideas? Meeting.
 date: 2022-02-01
 tags:
   - work
   - meetings
   - til
 layout: layouts/post.njk
-modified: '2022-02-01'
-modifiedDateTime: '2022-02-01 20:04'
+modified: '2022-02-02'
+modifiedDateTime: '2022-02-02 13:54'
 created: '2022-02-01'
 createdDateTime: '2022-02-01 12:10'
 ---

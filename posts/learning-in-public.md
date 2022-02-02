@@ -1,13 +1,13 @@
 ---
 title: learning in public
-description: Share your knowledge and insights
+excerpt: Share your knowledge and insights
 date: 2021-06-11
 tags: 
   - learning
   - til
 layout: layouts/post.njk
-modified: '2022-01-28'
-modifiedDateTime: '2022-01-28 13:28'
+modified: '2022-02-02'
+modifiedDateTime: '2022-02-02 13:55'
 created: '2021-06-11'
 createdDateTime: '2021-06-11 09:00'
 ---

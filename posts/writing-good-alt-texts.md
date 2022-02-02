@@ -1,14 +1,14 @@
 ---
 title: writing good alt texts
-description: A [study by WebAIM](https://webaim.org/projects/million/) from 2019 found that missing alt-texts is the second most common failure of Accessibility on the web. If you don't provide an alt-text the screen reader would say "Image" or on some devices it might read the filename.
+excerpt: A [study by WebAIM](https://webaim.org/projects/million/) from 2019 found that missing alt-texts is the second most common failure of Accessibility on the web. If you don't provide an alt-text the screen reader would say "Image" or on some devices it might read the filename.
 date: 2022-01-28
 tags:
   - development
   - accessibility
   - til
 layout: layouts/post.njk
-modified: '2022-01-28'
-modifiedDateTime: '2022-01-28 13:29'
+modified: '2022-02-02'
+modifiedDateTime: '2022-02-02 13:54'
 created: '2022-01-28'
 createdDateTime: '2022-01-28 11:54'
 ---

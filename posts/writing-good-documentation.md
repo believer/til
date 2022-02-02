@@ -1,14 +1,14 @@
 ---
 title: writing good documentation
-description: Writing good documentation is hard
+excerpt: Writing good documentation is hard
 date: 2021-07-18
 tags:
   - development
   - documentation
   - til
 layout: layouts/post.njk
-modified: '2022-01-28'
-modifiedDateTime: '2022-01-28 13:29'
+modified: '2022-02-02'
+modifiedDateTime: '2022-02-02 13:55'
 created: '2021-07-18'
 createdDateTime: '2021-07-18 14:00'
 ---

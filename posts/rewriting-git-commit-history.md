@@ -1,13 +1,13 @@
 ---
 title: rewriting git commit history
-description: If you want to fix a commit inside a PR you can use Git rebasing and the easiest way to do it is using an interactive rebase
+excerpt: If you want to fix a commit inside a PR you can use Git rebasing and the easiest way to do it is using an interactive rebase
 date: 2021-06-09
 tags:
   - git
   - til
 layout: layouts/post.njk
-modified: '2022-01-28'
-modifiedDateTime: '2022-01-28 13:28'
+modified: '2022-02-02'
+modifiedDateTime: '2022-02-02 13:56'
 created: '2021-06-09'
 createdDateTime: '2021-06-09 10:00'
 ---

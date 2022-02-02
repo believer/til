@@ -1,13 +1,13 @@
 ---
 title: newline in vim substitutions
-description: When doing substitutions in vim use \r instead of \n
+excerpt: When doing substitutions in vim use \r instead of \n
 date: 2022-01-26
 tags:
   - learning
   - til
 layout: layouts/post.njk
-modified: '2022-01-28'
-modifiedDateTime: '2022-01-28 13:28'
+modified: '2022-02-02'
+modifiedDateTime: '2022-02-02 13:54'
 created: '2022-01-26'
 createdDateTime: '2022-01-26 17:45'
 ---

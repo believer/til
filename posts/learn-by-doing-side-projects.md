@@ -1,13 +1,13 @@
 ---
 title: learn by doing side projects
-description: I can honestly say that building a bunch of side projects has made me a better developer
+excerpt: I can honestly say that building a bunch of side projects has made me a better developer
 date: 2021-06-11
 tags: 
   - learning
   - til
 layout: layouts/post.njk
-modified: '2022-01-31'
-modifiedDateTime: '2022-01-31 13:22'
+modified: '2022-02-02'
+modifiedDateTime: '2022-02-02 13:56'
 created: '2021-06-11'
 createdDateTime: '2021-06-11 09:00'
 ---

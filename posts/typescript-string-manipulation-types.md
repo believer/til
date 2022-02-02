@@ -1,14 +1,14 @@
 ---
 title: typescript string manipulation types
-description: In version 4.1 TypeScript added a set of types which can be used for string manipulation. These types are great for remapping string types to other formats.
+excerpt: In version 4.1 TypeScript added a set of types which can be used for string manipulation. These types are great for remapping string types to other formats.
 date: 2022-01-31
 tags:
   - development
   - typescript
   - til
 layout: layouts/post.njk
-modified: '2022-02-01'
-modifiedDateTime: '2022-02-01 14:05'
+modified: '2022-02-02'
+modifiedDateTime: '2022-02-02 13:54'
 created: '2022-01-31'
 createdDateTime: '2022-01-31 09:23'
 ---

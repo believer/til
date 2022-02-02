@@ -1,13 +1,13 @@
 ---
 title: strong code-review culture
-description: Code reviews are more about transferring knowledge inside a team and coming up with alternate solutions than finding bugs in the code
+excerpt: Code reviews are more about transferring knowledge inside a team and coming up with alternate solutions than finding bugs in the code
 date: '2021-06-16T13:00'
 tags: 
   - code-review
   - til
 layout: layouts/post.njk
-modified: '2022-01-28'
-modifiedDateTime: '2022-01-28 13:31'
+modified: '2022-02-02'
+modifiedDateTime: '2022-02-02 13:55'
 created: '2021-06-16'
 createdDateTime: '2021-06-16 13:00'
 ---
