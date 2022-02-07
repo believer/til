@@ -10,14 +10,14 @@ tags:
   - person/Jason_Roberts
 layout: layouts/post.njk
 modified: '2022-02-07'
-modifiedDateTime: '2022-02-07 20:02'
+modifiedDateTime: '2022-02-07 20:08'
 created: '2022-02-07'
 createdDateTime: '2022-02-07 09:15'
 ---
 
 People think that luck is something binary, you either have it or you don't. This might be true for some people, i.e., those born into privilege, but you can _create your own luck_ by creating optimal conditions for lucky things to happen to you.
 
-In 2010 Jason Roberts coined the term "Luck Surface Area" (LSA). His model is that **Doing and Telling** will increase your "luck". That investing time in your passions will help draw people to you. [Learning in public](/posts/learning-in-public) is a perfect example of how to increase your LSA by doing and telling.
+In 2010 Jason Roberts coined the term “Luck Surface Area” (LSA). His model is that **Doing and Telling** will increase your “luck”. That investing time in your passions will help draw people to you. [Learning in public](/posts/learning-in-public) is a perfect example of how to increase your LSA by doing and telling.
 
 > To satisfy my mathematically oriented brain I've gone one step further and formalized the concept into the equation L = D * T, where L is luck, D is doing and T is telling – Jason Roberts
 
@@ -29,7 +29,7 @@ Naval summarized luck into [four kinds](https://twitter.com/naval/status/1093981
 
 3. **Prepare the mind and be sensitive to chances others miss** – Noticing when something lucky has happened that most others will miss. This might come from some unique experience or knowledge that you have.
 
-> “Luck is what happens when preparation meets opportunity.” – Seneca
+> Luck is what happens when preparation meets opportunity. – Seneca
 
 4. **Become the best at what you do. Refine what you do until this is true. Opportunity will seek you out. Luck becomes your destiny** – This last one aligns with Jason Roberts' LSA as it tells you to keep refining your knowledge and that that will open up more opportunities.
 
