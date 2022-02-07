@@ -26,7 +26,15 @@ describe('#obsidianLinkToMarkdownLink', () => {
     ).toEqual("[Test's are nice*](/posts/tests-are-nice)")
   })
 
-  test('handles aliased links without page', () => {
+  test('handles links with quotation marks', () => {
+    expect(
+      obsidianLinkToMarkdownLink(['Test "Parkinsons" law'])(
+        '[[Test "Parkinsons" law]]'
+      )
+    ).toEqual('[Test "Parkinsons" law](/posts/test-parkinsons-law)')
+  })
+
+  test('handles links without page', () => {
     expect(
       obsidianLinkToMarkdownLink([])("[[Parkinsons lag|Parkinson's law]]")
     ).toEqual("Parkinson's law")

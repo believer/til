@@ -36,7 +36,7 @@ const obsidianLinkToMarkdownLink =
     return `[${title}](/posts/${title
       .toLowerCase()
       .replace(/\s/g, '-')
-      .replace(/[*']/g, '')})`
+      .replace(/[*'"]/g, '')})`
   }
 
 const addFileDates =
@@ -82,7 +82,7 @@ createdDateTime: '${formatDateTime.format(birthtime)}'`
       .replace(/{{/g, '{% raw %}{{')
       .replace(/}}/g, '}}{% endraw %}')
       .replace(
-        /\[\[([a-zåäö0-9\s-'.,|]+)\]\]/gi,
+        /\[\[([a-zåäö0-9\s-'".,|]+)\]\]/gi,
         obsidianLinkToMarkdownLink(allFilenames)
       )
       .replace(/^layout\: layouts\/post\.njk$/gim, addFileDates(metadata))
