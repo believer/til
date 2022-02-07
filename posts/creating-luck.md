@@ -10,7 +10,7 @@ tags:
   - person/Jason_Roberts
 layout: layouts/post.njk
 modified: '2022-02-07'
-modifiedDateTime: '2022-02-07 20:15'
+modifiedDateTime: '2022-02-07 20:16'
 created: '2022-02-07'
 createdDateTime: '2022-02-07 09:15'
 ---
@@ -36,6 +36,6 @@ Naval summarized luck into [four kinds](https://twitter.com/naval/status/1093981
 It's very possible to create your own luck or at least increase your chances of being lucky. How you go about doing it is up to you.
 
 ---
-- Shawn "swyx" Wang. (2020-08-29). _How to Create Luck_. [Link](https://www.swyx.io/create-luck/#luck-surface-area)
+- Shawn "swyx" Wang. (2020-08-29). _How to Create Luck_. [Link](https://www.swyx.io/create-luck)
 - Jason Roberts. (2010) _How to Increase Your Luck Surface Area_. [Link](https://www.codusoperandi.com/posts/increasing-your-luck-surface-area)
 - Naval. (2019-02-08). [Tweet](https://twitter.com/naval/status/1093981014920052736)
