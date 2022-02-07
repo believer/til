@@ -6,9 +6,11 @@ tags:
   - learning
   - teaching
   - til
+  - activity/writing
+  - status/done
 layout: layouts/post.njk
-modified: '2022-01-28'
-modifiedDateTime: '2022-01-28 13:28'
+modified: '2022-02-07'
+modifiedDateTime: '2022-02-07 09:59'
 created: '2021-08-30'
 createdDateTime: '2021-08-30 14:00'
 ---

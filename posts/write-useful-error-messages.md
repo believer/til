@@ -3,11 +3,13 @@ title: write useful error messages
 excerpt: Inform your users what is happening by writing good and useful error messages
 date: 2021-06-09
 tags:
-  - development
+  - topic/development
   - til
+  - activity/writing
+  - status/done
 layout: layouts/post.njk
-modified: '2022-02-02'
-modifiedDateTime: '2022-02-02 13:55'
+modified: '2022-02-07'
+modifiedDateTime: '2022-02-07 09:58'
 created: '2021-06-09'
 createdDateTime: '2021-06-09 10:00'
 ---

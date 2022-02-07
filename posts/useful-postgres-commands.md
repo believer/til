@@ -3,11 +3,13 @@ title: useful postgres commands
 excerpt: Useful Postgres commands and queries that I tend forget
 date: '2022-01-27T12:53'
 tags:
-  - postgres
+  - topic/postgres
   - til
+  - activity/writing
+  - status/done
 layout: layouts/post.njk
-modified: '2022-02-02'
-modifiedDateTime: '2022-02-02 13:54'
+modified: '2022-02-07'
+modifiedDateTime: '2022-02-07 10:00'
 created: '2022-01-27'
 createdDateTime: '2022-01-27 12:53'
 ---

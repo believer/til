@@ -3,11 +3,13 @@ title: using intl for lists
 excerpt: I've been using the amazing Intl API to format dates (DateTimeFormat) to localized formats. Today I learned about another part of the API, ListFormat, which, as the name might suggest, formats lists.
 date: 2022-02-02
 tags:
-  - intl
+  - topic/intl
   - til
+  - activity/writing
+  - status/done
 layout: layouts/post.njk
-modified: '2022-02-02'
-modifiedDateTime: '2022-02-02 13:53'
+modified: '2022-02-07'
+modifiedDateTime: '2022-02-07 09:55'
 created: '2022-02-02'
 createdDateTime: '2022-02-02 09:07'
 ---

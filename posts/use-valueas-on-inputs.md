@@ -5,9 +5,11 @@ date: '2021-11-10T13:37'
 tags:
   - learning
   - til
+  - activity/writing
+  - status/done
 layout: layouts/post.njk
-modified: '2022-01-28'
-modifiedDateTime: '2022-01-28 13:30'
+modified: '2022-02-07'
+modifiedDateTime: '2022-02-07 09:55'
 created: '2021-11-10'
 createdDateTime: '2021-11-10 13:37'
 ---
