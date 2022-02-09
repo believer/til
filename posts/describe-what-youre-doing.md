@@ -3,14 +3,14 @@ title: describe what you're doing
 excerpt: Describe what you're going to do and why before actually doing it when you're teaching something to someone.
 date: 2021-08-30
 tags:
-  - learning
-  - teaching
+  - activity/learning
+  - activity/teaching
   - til
   - activity/writing
   - status/done
 layout: layouts/post.njk
-modified: '2022-02-07'
-modifiedDateTime: '2022-02-07 09:59'
+modified: '2022-02-08'
+modifiedDateTime: '2022-02-08 16:04'
 created: '2021-08-30'
 createdDateTime: '2021-08-30 14:00'
 ---

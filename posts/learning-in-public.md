@@ -1,15 +1,16 @@
 ---
+aliases: [Publikt lärande]
 title: learning in public
 excerpt: Share your knowledge and insights
 date: 2021-06-11
 tags: 
-  - learning
+  - topic/learning
   - til
   - activity/writing
   - status/done
 layout: layouts/post.njk
-modified: '2022-02-07'
-modifiedDateTime: '2022-02-07 09:58'
+modified: '2022-02-08'
+modifiedDateTime: '2022-02-08 15:00'
 created: '2021-06-11'
 createdDateTime: '2021-06-11 09:00'
 ---

@@ -4,13 +4,13 @@ title: explain in plain words
 excerpt: An efficient way of testing your knowledge is to try and explain the subject in simple words
 date: 2021-06-11
 tags:
-  - learning
+  - activity/learning
   - til
   - activity/writing
   - status/done
 layout: layouts/post.njk
-modified: '2022-02-07'
-modifiedDateTime: '2022-02-07 09:58'
+modified: '2022-02-08'
+modifiedDateTime: '2022-02-08 16:05'
 created: '2021-06-11'
 createdDateTime: '2021-06-11 09:00'
 ---
@@ -24,5 +24,4 @@ A good way of testing this is by [Learning in public](/posts/learning-in-public)
 This is the basis of Richard Feynman's learning technique.
 
 ---
-
 - Shu Omi. (2020-10-23). "Simple Feynman Technique for Studying". [Link](https://www.youtube.com/watch?v=GL6Z1DTJ-LQ)

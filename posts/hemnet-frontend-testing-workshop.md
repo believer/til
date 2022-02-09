@@ -4,14 +4,14 @@ excerpt: This is a workshop in Frontend Testing that I held at Hemnet. The idea 
 date: '2021-06-16T15:55'
 tags:
   - topic/development
-  - react
+  - topic/react
   - topic/testing
   - til
   - activity/writing
   - status/done
 layout: layouts/post.njk
-modified: '2022-02-07'
-modifiedDateTime: '2022-02-07 09:55'
+modified: '2022-02-08'
+modifiedDateTime: '2022-02-08 16:05'
 created: '2021-06-16'
 createdDateTime: '2021-06-16 15:55'
 ---

@@ -3,13 +3,13 @@ title: newline in vim substitutions
 excerpt: When doing substitutions in vim use \r instead of \n
 date: 2022-01-26
 tags:
-  - learning
+  - activity/learning
   - til
   - activity/writing
   - status/done
 layout: layouts/post.njk
-modified: '2022-02-07'
-modifiedDateTime: '2022-02-07 09:59'
+modified: '2022-02-08'
+modifiedDateTime: '2022-02-08 16:04'
 created: '2022-01-26'
 createdDateTime: '2022-01-26 17:45'
 ---
@@ -19,5 +19,4 @@ When doing substitutions in vim use `\r` instead of `\n`. `\n` inserts a null ch
 If you are _searching_ for a newline, you'd still use `\n`.
 
 ---
-
-- StackOverFlow. (2008-09-16). [Link](https://stackoverflow.com/questions/71323/how-to-replace-a-character-by-a-newline-in-vim)
+StackOverFlow. (2008-09-16). [Link](https://stackoverflow.com/questions/71323/how-to-replace-a-character-by-a-newline-in-vim)

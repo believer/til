@@ -3,13 +3,13 @@ title: use valueAs* on inputs
 excerpt: If you want to get the value of an input as a number or a date you can easily parse the value of a type="text" input
 date: '2021-11-10T13:37'
 tags:
-  - learning
+  - topic/learning
   - til
   - activity/writing
   - status/done
 layout: layouts/post.njk
-modified: '2022-02-07'
-modifiedDateTime: '2022-02-07 09:55'
+modified: '2022-02-08'
+modifiedDateTime: '2022-02-08 16:32'
 created: '2021-11-10'
 createdDateTime: '2021-11-10 13:37'
 ---
