@@ -37,3 +37,9 @@
     @apply my-4;
   }
 }
+
+@layer components {
+  .grid-post {
+    grid-template-columns: 1fr max-content;
+  }
+}
