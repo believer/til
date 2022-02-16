@@ -1,3 +1,3 @@
 # Today I Learned
 
-This is an updated version of my [Devlog](https://devlog.willcodefor.beer/)
+I've moved TIL to my personal site and combined them with my blog posts. https://github.com/believer/willcodefor.beer
